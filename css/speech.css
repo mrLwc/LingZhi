@@ -1,0 +1,35 @@
+.panel {
+    width: 1135px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 53px;
+    height: 537px;
+    background-color: #fff;
+    position: relative;
+}
+
+.panel_box {
+    width: 1118px;
+    height: 438px;
+    margin: 0 auto;
+    background: url(../img/2-1.png) no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -559px;
+    background-size: contain;
+}
+
+.panel_text {
+    width: 1000px;
+    height: 156px;
+    margin: 50px auto;
+    text-indent: 2em;
+    font-size: 12.31px;
+    line-height: 25px;
+    font-family: "宋体";
+}
+
+.panel_text p:last-child {
+    margin-top: 35px;
+}

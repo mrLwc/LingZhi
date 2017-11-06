@@ -1,0 +1,206 @@
+body {
+    background: #09070e;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* content */
+
+.banner {
+    width: 1135px;
+    min-width: 1135px;
+    margin: 0 auto;
+}
+
+.banner_box {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_nav {
+    position: absolute;
+    top: 0;
+    width: 200%;
+    height: 100%;
+}
+
+.banner_img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.banner_img img {
+    width: 100%;
+    height: 750px;
+}
+
+.banner_img .news {
+    position: absolute;
+    right: 0;
+    top: 260px;
+    width: 570px;
+    text-align: right;
+}
+
+.banner_img .news h5 {
+    width: 100%;
+    color: #f200f2;
+    font-size: 80px;
+    vertical-align: bottom;
+    font-weight: 100;
+}
+
+.banner_img .news h5 span {
+    font-size: 40px;
+    color: #fff;
+}
+
+.banner_img .news p {
+    width: 100%;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 28px;
+}
+
+.banner_img .news ul li {
+    float: right;
+    margin-left: 43px;
+    color: #fff;
+    margin-top: 87px;
+    font-size: 20px;
+}
+
+.banner_img .news ul li span {
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    background: url(../img/0224-首页-banner2.png) no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.banner_bar {
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    bottom: 45px;
+    text-align: center;
+    left: 50%;
+    margin-left: -15px;
+}
+
+.banner_bar li.now {
+    background: #fff;
+}
+
+.banner_bar li {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    float: left;
+    margin: 0 5px;
+}
+
+
+/* concatnav */
+
+.concatnav {
+    height: 40px;
+    width: 100%;
+    background: #f6f7f7;
+}
+
+.concatnav .concat_bar {
+    width: 1135px;
+    margin: 0 auto;
+    height: 40px;
+    min-width: 1135px;
+}
+
+.concatnav .concat_bar li {
+    float: left;
+    margin-right: 118px;
+    line-height: 40px;
+}
+
+.concatnav .concat_bar li:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+.concatnav .concat_bar li span {
+    display: inline-block;
+    width: 11px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.concatnav .concat_bar li:nth-child(2) span {
+    background: url(../img/1-04.png) no-repeat;
+}
+
+.concatnav .concat_bar li:nth-child(3) span {
+    background: url(../img/1-05.png) no-repeat;
+}
+
+.concatnav .concat_bar li:nth-child(4) span {
+    background: url(../img/1-06.png) no-repeat;
+    width: 12px;
+}
+
+.concatnav .concat_bar li:nth-child(5) span {
+    background: url(../img/1-07.png) no-repeat;
+    width: 14px;
+}
+
+.concatnav .concat_bar li a {
+    color: #666;
+}
+
+
+/* product */
+
+.product {
+    width: 100%;
+    position: relative;
+    background: #fff;
+}
+
+.product_bar {
+    margin: 0 auto;
+    width: 1135px;
+    padding: 50px 0;
+    min-width: 1135px;
+}
+
+.product_bar .bar {
+    width: 220px;
+    height: 422px;
+    margin-right: 8px;
+    float: left;
+}
+
+.product_bar .bar:nth-child(3) {
+    width: 450px;
+}
+
+.product_bar .bar:last-child {
+    margin-right: 0;
+}
+
+.product_bar .bar_1 img,
+.product_bar .bar_2 img,
+.product_bar .bar_4 img {
+    width: 100%;
+}
+
+.bar_1 img {
+    height: 207px;
+}
